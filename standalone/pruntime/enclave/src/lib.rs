@@ -1617,7 +1617,7 @@ fn test_ink(_input: &Map<String, Value>) -> Result<Value, Value> {
     Ok(json!({}))
 }
 
-const INTERVAL: u64 = 6;
+const INTERVAL: u64 = 30;
 const MAX_NUM: u128 = 65536*1024;
 
 fn is_prime(num: u128) -> bool {
